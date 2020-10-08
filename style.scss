@@ -127,7 +127,8 @@ main {
         li {
           padding: 0 15px;
 
-          a {
+          a[href] {
+            text-decoration: none;
             width: 30px;
             height: 30px;
             border: 1px solid currentColor;
@@ -140,7 +141,11 @@ main {
             transition: 0.15s;
 
             i {
+              background-clip: text;
               -webkit-background-clip: text;
+              -moz-background-clip: text;
+              -ms-background-clip: text;
+              -o-background-clip: text;
               background-image: url(./imgs/header/2.jpg);
               background-attachment: fixed;
               background-size: cover;
@@ -183,7 +188,11 @@ main {
         margin: auto 0;
 
         span {
+          background-clip: text;
           -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -ms-background-clip: text;
+          -o-background-clip: text;
           background-image: url(./imgs/header/2.jpg);
           background-attachment: fixed;
           background-size: cover;
@@ -211,7 +220,11 @@ main {
 
     .text-parent {
       color: transparent;
+      background-clip: text;
       -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -ms-background-clip: text;
+      -o-background-clip: text;
       background-image: url(./imgs/header/2.jpg);
       background-attachment: fixed;
       background-size: cover;
@@ -354,7 +367,11 @@ main {
             background-image: url(./imgs/header/skills.jpg);
             background-attachment: fixed;
             background-size: cover;
+            background-clip: text;
             -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -ms-background-clip: text;
+            -o-background-clip: text;
             color: transparent;
           }
 
@@ -384,7 +401,11 @@ main {
       background-image: url(./imgs/header/skills.jpg);
       background-attachment: fixed;
       background-size: cover;
+      background-clip: text;
       -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -ms-background-clip: text;
+      -o-background-clip: text;
       margin-bottom: 30px;
       position: relative;
 
@@ -578,7 +599,11 @@ main {
         background-image: url(./imgs/3.jpg);
         background-attachment: fixed;
         background-size: cover;
+        background-clip: text;
         -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -ms-background-clip: text;
+        -o-background-clip: text;
         margin-bottom: 30px;
         position: relative;
 
