@@ -81,11 +81,15 @@ main {
   height: 100vh;
   overflow-y: auto;
   //
-  scroll-snap-type: both mandatory;
+
+  @media (min-width: 1200px) {
+    scroll-snap-type: both mandatory;
+    section {
+      scroll-snap-align: start;
+    }
+  }
 
   section {
-    scroll-snap-align: start;
-    //
     padding-top: calc(40px + 5vh);
     background-attachment: fixed !important;
     background-size: cover !important;
