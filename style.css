@@ -1,3 +1,8 @@
+* {
+  background-position: center center;
+  background-origin: border-box;
+}
+
 @font-face {
   font-family: default_;
   src: url(./css/Cormorant_Upright/CormorantUpright-Regular.ttf);
