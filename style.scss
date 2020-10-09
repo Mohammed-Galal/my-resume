@@ -1,6 +1,5 @@
 * {
   background-position: center center;
-  background-origin: border-box;
 }
 
 @font-face {
@@ -17,7 +16,7 @@ body {
 }
 
 .g-borders {
-  border: 1.5px solid currentColor;
+  border: 1px solid currentColor;
   -o-border-image: repeating-linear-gradient(
       to bottom left,
       transparent,
